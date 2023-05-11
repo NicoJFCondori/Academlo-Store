@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assetss/css/style.css">
+    <script src="./assetss/js/main.js" defer></script>
+</head>
+
+
+<body>
+    <header>
+
+        <header id="headerPrincipal" class="headerPrincipal">
+            <nav class="navbar_container">
+                <a href="#home" class="navbar_logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav_logo-icon">
+                        <title>Academlo Logo</title>
+                        <g>
+                            <g>
+                                <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <span class="navbar_text">STORE</span>
+                </a>
+
+                <ul class="navbar_menu navbar_menu-show" id="navbarMenu">
+                    <li>
+                        <a class="link__active" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="">Products</a>
+                    </li>
+                </ul>
+                
+
+                
+            </nav>
+        </header>
+    
+        <nav> 
+            <i class='bx bx-moon moon-icon' ></i>
+            <i class='bx bx-shopping-bag shopping-bag'>
+                <span class="amountProducts"></span>
+            </i>
+
+            
+            
+        </nav>
+    
+        
+    </header>
+
+
+    <div class= "container" > 
+
+        <div class="banda"></div>
+
+        <div class="bodytext" >
+            <h2 id="my-heading">New Sweatshirt COLLECTIONS 2022</h2>
+            <p id= "latest">Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</p>
+            <p>$14.00</p>
+            <button class="button_show_more">Show More</button>
+        </div>
+
+        <img class="bodyimage" src="./assetss/img/sweater2.png" alt="">
+        
+    </div>
+
+    <div class="products"></div>
+
+    <div class="load" id="load">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="load__gif">
+            <title>Academlo Logo</title>
+            <g>
+                <g>
+                    <path
+                        d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                    </path>
+                    <path
+                        d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <div class="hidden__load loadoculto"></div>
+    
+    
+    <div class= "cart cart_show">
+        <i class="bx bx-x" id="iconCloseCart"></i>
+            <div class="cart_products"></div>
+            <div class="cart_total">
+                <div class="cart_total--info">
+                    <span class= "info_amount"></span> 
+                    <span class= "info_total"></span>                 
+            </div>
+            <button class="btn_buy">Comprar</button>
+        </div>
+    </div>
+</body>
+</html>
